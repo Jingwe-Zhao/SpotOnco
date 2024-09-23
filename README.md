@@ -10,7 +10,7 @@ SpotOnco, a method based on VISION scoring that utilizes the spatial expression 
 * R packages: Seurat, VISION, tidyverse
 
 ```
-#install the SPADE package
+#install the SpotOnco package
 devtools::install_github('Jingwe-Zhao/SpotOnco')
 developing......
 ```
