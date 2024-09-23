@@ -12,4 +12,5 @@ SpotOnco, a method based on VISION scoring that utilizes the spatial expression 
 ```
 #install the SPADE package
 devtools::install_github('Jingwe-Zhao/SpotOnco')
+developing......
 ```
