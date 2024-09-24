@@ -1,0 +1,12 @@
+Package: SpotOnco
+Title: A universal tool for rapid identification of cancer foci and tumor boundary in spatial transcriptome
+Version: 0.1.0
+Authors@R: 
+    person("jingwei", "zhao", , "zhaojingwei1027@163.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: SpotOnco, a method based on VISION scoring that utilizes the spatial expression patterns of specific metabolic gene sets to provide an efficient way to quickly identify cancer lesions and tumor boundaries in cancer tissue slices.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
