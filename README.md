@@ -39,4 +39,4 @@ ST <- CompBdy(ST, NicheLabel = 'Mal', minSpot = 10, sliceName = "CRC1")
 
 SpatialPlot(ST,group.by = 'Region')
 ```
-
+### More features are being developed
