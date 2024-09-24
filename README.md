@@ -10,7 +10,33 @@ SpotOnco, a method based on VISION scoring that utilizes the spatial expression 
 * R packages: Seurat, VISION, tidyverse
 
 ```
-#install the SpotOnco package
+# install the SpotOnco package
 devtools::install_github('Jingwe-Zhao/SpotOnco')
-developing......
 ```
+
+```
+library(SpotOnco)
+library(VISION)
+library(clusterProfiler)
+library(tidyverse)
+
+# load demo data
+data<- system.file("data", "CRC1.RDS", package = "SpotOnco")
+ST<-readRDS(data)
+
+# SCTransform And Clustering
+ST<-SCT(ST, resolution = 0.3)
+SpatialPlot(ST)
+
+# malignancy Scoring
+ST<-CompScore(ST, assay = "Spatial")
+
+# Niche category 
+ST<-NicheCat(ST,formula = 'Q1')
+
+# Tumor boundary recognition Description
+ST <- CompBdy(ST, NicheLabel = 'Mal', minSpot = 10, sliceName = "CRC1")
+
+SpatialPlot(ST,group.by = 'Region')
+```
+
