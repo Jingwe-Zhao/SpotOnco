@@ -1,9 +1,10 @@
 # SpotOnco
-## A universal tool for rapid identification of cancer foci and tumor boundary in spatial transcriptome
+## A universal tool for rapid identification of cancer foci and tumor boundary in spatial transcriptomics
 
-![workflow](https://github.com/user-attachments/assets/ba3b2ad4-7cf5-4ecf-9c37-85825298bc0b)
+![workflw2](https://github.com/user-attachments/assets/8ce6b73b-a9ef-44d2-a02d-cbe3607489bf)
 
-SpotOnco, a method based on machine learning that utilizes the spatial expression patterns of specific metabolic gene sets to provide an efficient way to quickly identify cancer lesions and tumor boundaries in cancer tissue slices
+
+SpotOnco : Provides an efficient method for rapid identification of cancer foci and tumor boundaries in tumor spatial transcriptomics data by exploiting spatially scored expression patterns of a  malignant cell gene set
 
 # Installation
 ### Dependencies
