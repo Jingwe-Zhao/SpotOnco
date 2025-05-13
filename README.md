@@ -1,11 +1,12 @@
 # SpotOnco
-## A universal tool for rapid identification of cancer foci and tumor boundary in spatial transcriptomics
+## A novel tool for identifying cancer foci and tumor invasion frontier regions in spatial transcriptomics
 
-![workflw3png](https://github.com/user-attachments/assets/b7b60025-ae15-4c2c-83ea-e9c29ffa8e20)
+![workflow](https://github.com/user-attachments/assets/a1c1dab5-63a6-4040-ab34-94518b38d7f5)
 
 
 
-SpotOnco : Provides an efficient method for rapid identification of cancer foci and tumor boundaries in tumor spatial transcriptomics data by exploiting spatially scored expression patterns of a  malignant cell gene set
+
+SpotOnco : Provides an efficient method for rapid identification of cancer foci and tumor invasion frontier in tumor spatial transcriptomics data by exploiting spatially scored expression patterns of a Pan-cancer malignant cell gene set
 
 # Installation
 ### Dependencies
